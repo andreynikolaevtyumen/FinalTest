@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿string[] array = new string[] { "hello", "2", "world", ";-)", "!!!", "maximum" };
+string[] newarray = new string[array.Length];
+int n = 0;
