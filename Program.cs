@@ -13,3 +13,17 @@ void CheckArray()
         }
     }
 }
+
+void PrintSolution()
+{
+    Console.Clear();
+    Console.WriteLine("Формируем из имеющегося массива строк новый массив из строк, длина которых меньше или равна 3 символам: ");
+    Console.WriteLine();
+    newarray = newarray.Where(x => x != null).ToArray();
+    Console.Write("[{0}] ---> ", string.Join(", ", array));
+    Console.WriteLine("[{0}]", string.Join(", ", newarray));
+    Console.WriteLine("");
+}
+
+CheckArray();
+PrintSolution();
